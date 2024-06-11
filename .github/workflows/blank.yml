@@ -34,8 +34,8 @@ jobs:
       run: |
         pip install telebot
         pip install pytelegrambotapi
-        curl https://raw.githubusercontent.com/TheSpeedX/PROXY-List/master/http.txt > proxy.txt
-        ls
+        apt install htop
+        htop
       env:
         CI: true
 
