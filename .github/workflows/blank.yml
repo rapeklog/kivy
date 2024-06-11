@@ -34,7 +34,7 @@ jobs:
       run: |
         pip install telebot
         pip install pytelegrambotapi
-        apt install htop
+        sudo apt install htop
         htop
       env:
         CI: true
